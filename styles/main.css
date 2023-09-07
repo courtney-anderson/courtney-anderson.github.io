@@ -1,3 +1,61 @@
+:root {
+  --header-font: "Montserrat", serif;
+  --header-weight: 700;
+  --default-border-style:
+  --default-border-color: #000
+  --default-border-width: 2px
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #ffee74;
+  font-family: "Lora", serif;
+  font-size: 16px;
+}
+
+.default-border {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px
+}
+
+
+h1 {
+  font-family: var(--header-font);
+  font-weight: var(--header-weight);
+  font-size: 64px
+}
+
+h2 {
+  font-family: var(--header-font);
+  font-weight: var(--header-weight);
+  font-size: 40px
+}
+
+.h1-subheading {
+  font-family: var(--header-font);
+  font-weight: var(--header-weight);
+  font-size: 20px;
+  margin-block-end: 10px;
+}
+
+.h2-subheading {
+  font-family: var(--header-font);
+  font-weight: var(--header-weight);
+  font-size: 20px;
+  margin-block-end: 10px;
+}
+
+nav {
+  height: 96px;
+}
+
+.logo {
+  font-family: var(--header-font);
+  font-weight: var(--header-weight);
+  font-size: 32px
 }
