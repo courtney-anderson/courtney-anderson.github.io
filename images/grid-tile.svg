@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="grid-squares" x="0" y="0" width="128" height="128" patternUnits="userSpaceOnUse">
+              <path class="cls-1" d="m97,0h-2v31h-62V0h-2v31H0v2h31v62H0v2h31v31h2v-31h62v31h2v-31h31v-2h-31v-62h31v-2h-31V0Zm-2,33v62h-62v-62h62Z"/>
+            </pattern>
+          </defs>
+          <rect x="0" y="0" width="100%" height="100%" fill="url(#grid-squares)"></rect>
+</svg>

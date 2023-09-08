@@ -38,6 +38,11 @@ body {
   margin: 0 auto;
 }
 
+.grid-background {
+  background-image: url('../images/grid-tile.svg');
+  background-size: cover;
+}
+
 .h1-default {
   font-family: var(--header-font);
   font-weight: var(--header-weight);
@@ -68,6 +73,7 @@ body {
   font-family: var(--header-font);
   font-weight: var(--header-weight);
   font-size: 96px;
+  line-height: 96px;
   padding: 40px 0px;
   color: var(--white);
   text-shadow: -1px -1px var(--dark-purple), -2px -2px var(--dark-purple),
@@ -258,12 +264,31 @@ img {
   padding: 32px 0px;
 }
 
-.hero-homepage-subtitle a {
-  color: var(--hot-pink);
+.hero-homepage-subtitle a:link {
+  color: var(--default-color);
   text-decoration: underline;
 }
 
 .hero-homepage-subtitle a:visited {
+  color: var(--default-color);
+  text-decoration: underline;
+}
+
+.hero-homepage-subtitle a:hover {
   color: var(--hot-pink);
   text-decoration: underline;
+}
+
+.blog-posts {
+  width: 100%;
+  height: fit-content;
+  display: block;
+}
+
+.blog-list {
+  width: 100%;
+  height: 400px;
+  background-color: var(--purple);
+  border-bottom: var(--default-border-width) var(--default-border-color)
+    var(--default-border-style);
 }
