@@ -227,7 +227,7 @@ nav {
   font-size: 32px;
 }
 
-.logo a:link {
+.logo a {
   color: var(--default-color);
 }
 
