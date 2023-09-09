@@ -34,7 +34,12 @@ body {
   min-height: 100vh;
   color: var(--default-color);
   font-family: 'Lora', serif;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+p {
+  line-height: 32px;
+  margin-top: 24px;
 }
 
 .content-width {
@@ -369,6 +374,42 @@ img {
 
 .blog-card a:visited {
   color: var(--default-color);
+}
+
+.blog-content {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: var(--purple);
+  border-bottom: var(--default-border-width) var(--default-border-color)
+    var(--default-border-style);
+}
+
+.blog-left-space {
+  background-color: var(--white);
+  flex: 1;
+}
+
+article {
+  flex: 0 0 824px;
+  background-color: var(--white);
+  padding: 24px 40px 32px 0px;
+}
+
+aside {
+  flex: 0 0 400px;
+  border-left: var(--default-border-width) var(--default-border-color)
+    var(--default-border-style);
+}
+
+.blog-right-space {
+  flex: 1;
+}
+
+.h1-subtitle em {
+  margin-top: 16px !important;
 }
 
 footer {
