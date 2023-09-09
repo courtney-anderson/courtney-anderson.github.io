@@ -428,6 +428,7 @@ button {
   font-family: var(--header-font);
   font-weight: var(--header-weight);
   font-size: 20px;
+  color: var(--default-color);
   background-color: var(--white);
   border: var(--default-border-width) var(--default-border-color)
     var(--default-border-style);
@@ -440,6 +441,7 @@ button {
 }
 
 button:hover {
+  color: var(--default-color);
   box-shadow: 6px 6px rgba(0, 0, 0, 1);
   cursor: pointer;
 }
