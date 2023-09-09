@@ -452,3 +452,41 @@ button:hover {
   height: fit-content;
   width: fit-content;
 }
+
+@media screen and (max-width: 1272px) {
+  body {
+    background-color: greenyellow;
+  }
+  .content-width {
+    width: auto;
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .blog-content {
+    flex-direction: column;
+  }
+
+  .blog-left-space {
+    display: none;
+  }
+
+  article {
+    flex: none;
+    height: fit-content;
+    background-color: var(--white);
+    padding: 24px 24px 24px 32px;
+    border-bottom: var(--default-border-width) var(--default-border-color)
+      var(--default-border-style);
+  }
+
+  aside {
+    flex: 0 0 88px;
+    border-left: none;
+  }
+
+  .blog-right-space {
+    display: none;
+  }
+}
