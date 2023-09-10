@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courtney's Blog | The Story of Te Houtaewa</title>
+    <title>Courtney's Blog | Inline vs Inline Blocks</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +35,8 @@
       <div class="hero-blog-title">
         <div class="content-width hero-title-stack">
           <!-- Blog Title -->
-          <div class="h1-subheading"><a href="../index.html">Home</a>&nbsp /&nbsp Blog Post #01</div>
-          <h1 class="h1-default">The Story of Te Houtaewa</h1>
+          <div class="h1-subheading"><a href="../index.html">Home</a>&nbsp /&nbsp Blog Post #02</div>
+          <h1 class="h1-default">Inline vs Inline Blocks</h1>
         </div>
       </div>
     </section>
@@ -44,32 +44,20 @@
       <div class="blog-left-space"></div>
       <article>
         <div class="h1-subtitle">
-          E kore e mau i a koe, he wae kai pakiaka.</div>
-        <div class="h1-subtitle"><em>
-          A foot accustomed to running over roots makes the speediest runner.</em></div>
+          What does it mean to display inline vs inline blocks?
+        </div>
         <p>
-          Te Houtaewa was the fastest runner of his day and played many pranks on
-          his peoples enemies. One morning his mother wanted kumara for the hangi
-          (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short
-          distance away. He agreed to fetch the kumara and told his mother to
-          prepare the hangi.
+          When a webpage is created in code, a coding language called HTML is used to lay out the content and structure of the page. Different elements that make up the page, such as the page header, title, article, and footer, are arranged in order in this HTML document. Elements are often nested within others, like a logo sitting inside a navigation bar.
         </p>
         <p>
-          Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as
-          he wanted to annoy some Te Rarawa people who lived there. Carrying two
-          large baskets for the kumara, he ran like the wind, completing the journey
-          over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few
-          hours it takes a good hangi to heat up properly. On reaching Ahipara, he
-          went straight to the people's kumara pataka (storehouse for the sweet
-          potatoes) situated at the foot of the hill Whangatauatia.
+          An additional language, called CSS, can then be used to define the styling and behaviours of these elements. For example: their dimensions, colours, borders, padding, alignment, and position. In CSS, this is achieved by referencing an element, specifying a property for that element, and then defining that property, e.g. <code>button {background-color: white}</code>.
         </p>
         <p>
-          While Te Houtaewa was filling his baskets with kumara he was spotted
-          stealing the kai (food). He was immediately recognised.
+          A key property in CSS is the <code>display</code> property, which determines the layout of an element and its interaction with surrounding elements. The default display behaviour of most elements is to act like a block, meaning each element starts on a new line and fills that line's width. This behavior can be changed in CSS by defining the display property as <code>display: inline</code>, resulting in the element only occupying the space needed for its content, without pushing subsequent content to a new line.
         </p>
-        <p><em>
-          Source: Unknown
-        </em></p>
+        <p>
+          However, if this inline element needs its dimensions further defined, this is when <code>display: inline-block</code> can be used. This enables a different width and height to be specified, rather than the element merely wrapping its contents.
+        </p>
       </article>
       <aside></aside>
       <div class="blog-right-space"></div>

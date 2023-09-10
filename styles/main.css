@@ -43,6 +43,13 @@ p {
   margin-top: 24px;
 }
 
+code {
+  color: var(--hot-pink);
+  background-color: rgb(235, 235, 225);
+  padding-inline-start: 4px;
+  padding-inline-end: 4px;
+}
+
 .content-width {
   height: fit-content;
   width: var(--content-width-lg);
