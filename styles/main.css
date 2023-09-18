@@ -373,7 +373,7 @@ img {
   background-color: var(--white);
   border: var(--default-border-width) var(--default-border-color)
     var(--default-border-style);
-  flex-basis: calc(50% - 20px);
+  flex-basis: calc(50% - 16px);
   box-shadow: 12px 12px rgba(0, 0, 0, 0.25);
 }
 
@@ -387,7 +387,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  gap: 40px;
+  gap: 32px;
 }
 
 .blog-card-titles {
