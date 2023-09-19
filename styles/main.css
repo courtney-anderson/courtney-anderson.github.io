@@ -516,6 +516,16 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 880px) {
+  .blog-card {
+    flex-basis: 100%;
+  }
+
+  .blog-content {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 720px) {
   body {
     font-size: 16px;
@@ -596,14 +606,6 @@ button:hover {
 
   .blog-card-titles {
     padding: 16px 24px;
-  }
-
-  .blog-card {
-    flex-basis: 100%;
-  }
-
-  .blog-content {
-    flex-direction: column;
   }
 
   article {
