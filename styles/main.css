@@ -82,6 +82,10 @@ tr:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
+hr {
+  margin: 32px 0px;
+}
+
 .content-width {
   height: fit-content;
   width: var(--content-width-lg);
@@ -104,6 +108,13 @@ tr:nth-child(odd) {
   font-family: var(--header-font);
   font-weight: var(--header-weight);
   font-size: 40px;
+}
+
+.h3-default {
+  font-family: var(--header-font);
+  font-weight: var(--header-weight);
+  font-size: 24px;
+  margin-top: 28px;
 }
 
 .h1-subheading {
@@ -570,6 +581,10 @@ button:hover {
 
   .h2-default {
     font-size: 24px;
+  }
+
+  .h3-default {
+    font-size: 18px;
   }
 
   .h1-subheading {
